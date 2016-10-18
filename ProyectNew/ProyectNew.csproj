@@ -120,10 +120,19 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\index_style.css" />
     <Content Include="css\materialize.css" />
     <Content Include="css\materialize.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="Img\14063739_10208842255405957_5796210327642464632_n.jpg" />
+    <Content Include="Img\1476776147_Company1.fw.png" />
+    <Content Include="Img\clients.fw.png" />
+    <Content Include="Img\company.fw.png" />
     <Content Include="Img\FB_20150103_22_09_44_Saved_Picture.jpg" />
+    <Content Include="Img\Library.fw.png" />
+    <Content Include="Img\mar.jpg" />
+    <Content Include="Img\user.fw.png" />
+    <Content Include="Img\visit.fw.png" />
     <Content Include="js\JavaScript.js" />
     <Content Include="js\jquery-3.1.1.min.js" />
     <Content Include="js\materialize.js" />
@@ -135,6 +144,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\PruebaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -169,6 +179,7 @@
     <Content Include="fonts\roboto\Roboto-Thin.woff" />
     <Content Include="fonts\roboto\Roboto-Thin.woff2" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Prueba\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
